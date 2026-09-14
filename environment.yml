@@ -1,0 +1,11 @@
+name: dexi-video
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - ffmpeg
+  - pip
+  - pip:
+      - mcap-ros2-support==0.5.7
